@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#container {
+    display: inline-grid;
+    grid-template-columns: repeat(4, 2fr);
+    grid-template-rows: repeat(4, 2fr);
+    height: 575px;
+    width: 575px;
+    background-color: skyblue;
+    border: 2px solid black;
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.button {
+    margin-top: 50px;
+    padding: 30px;
+}
+
+.box {
+    border: 1px solid gray;
+    background-color: white;
+}
+
+.colored {
+    background-color: black;
+}
